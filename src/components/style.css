@@ -1,0 +1,102 @@
+.navbar-transparent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2; /* Asegura que la navbar esté encima de la imagen */
+}
+
+.navbar {
+    color: white;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6));
+     /* Ajusta el color del texto según sea necesario */
+}
+
+.itemMargin{
+    margin-top: 35vh;
+}
+
+.homeP {
+    z-index: 2;
+    
+    margin-top: 60vh;
+    margin-right: 60%;
+    margin-left: 3%;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px black;
+    
+
+
+}
+
+.shadowText{
+    text-shadow: 1px 1px 1px black;
+}
+.brandText {
+    color:white;
+    margin-left: 3%;
+    font-size: 50px;
+    font-weight: 600;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 1px 1px 1px black;
+}
+
+.navbarItems {
+    color:white;
+    font-size: 30px;
+    font-weight: 400;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 1px 1px 1px black;
+}
+
+.formPlacement{
+    margin-top: 35vh;
+    margin-left: 8vh;
+    position: absolute;
+    background-color: rgba(255,255,255,0.4);
+    border-radius: 2vh;
+    min-height:40vh;
+    min-width: 80vh;
+    max-height: 60vh;
+    max-width: 100vh;
+    padding:2vh 4vh 2vh 4vh;
+    z-index: 10;
+}
+
+.formPlace {
+    margin-bottom: 1vh;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top:2vh;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.aboutusP{
+    background-color: rgb(37, 38, 61);
+    
+    border-radius: 40px;
+    padding: 40px;
+    text-align: center;
+    margin-top: 20vh;
+    font-size: 30px;
+   
+    margin-left: 20vh;
+    margin-right: 20vh;
+    z-index: 10;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.aboutusLogos{
+    
+    margin-left: 20vh;
+    margin-right: 20vh;
+    z-index: 20;
+        
+
+}
+
+.logosSize{
+    max-height: 10vh;
+    margin-left: 5vh;
+    
+}
