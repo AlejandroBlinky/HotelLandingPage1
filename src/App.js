@@ -1,6 +1,5 @@
 import React from 'react';
 import HomePage from './components/homePage';
-import Navbar from './components/navbar';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import AboutUs from './components/about'; 
 import BookNow from './components/booknow';
